@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    background-color:#fff;
+    font-family: 'Rubik', sans-serif;
+
+}
+.top-header{
+    background: #f1f5fe;
+    padding: 9px 0 12px 0;
+}
+.top-header ul {
+    margin-left: 0;
+    padding: 0;
+}
+    .top-header ul li {
+    list-style: none;
+
+}
+.top-header ul li a{
+    margin-right: 1rem;
+}
+.navbar .collapse ul li {
+    margin-right: 2rem;
+}
+.navbar{
+    background: #fff;
+    transition: .5s;
+    margin-bottom: 0;
+    z-index: 999;
+    position: relative;
+}
+.nav-title a{
+    color: #fff;
+}
+.nav-title{
+    
+    background: linear-gradient( to right, #533EFF 0%, #740FD7 97%);
+    border: 1px solid #695AF8;
+    padding: 9px 37px;
+    vertical-align: middle;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    transition: 0.3s;
+}
+.home-cafe{
+    margin-top: 3rem;
+    
+     
+}
+.home-cafe h1{
+color:#fff;
+text-align: center;
+font-size: 80px;
+font-weight: 800;
+
+}
+.home{
+    background: url(/images/home.png);
+    height: 700px;
+}
+.home .container .row .home-left-col .title-heading{
+    margin-top:10rem ;
+}
+.home .container .row .home-left-col .title-heading .home-title{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.home .container .row .home-left-col .title-heading .home-heading {
+    font-size: 80px;
+    font-weight: 800;
+    margin: 0;
+    
+    color: rgb(255, 255, 255);
+}
+.home .container .row .home-title p{
+    letter-spacing: 5px;
+}
+.pricing-area {
+    background: url(/images/pricing-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pricing-area .container{
+
+width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pricing-area .container .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.section-title.t-center .section-sub-title h5::before {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 20px;
+    background: #cdc8fd;
+    top: 46%;
+    border-radius: 15px;
+    left: -40px;
+}
+.footer{
+        padding: 50px;
+      
+        background: url(/images/footer-bg.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+}
+.diwali-dhamaka-gif{
+    border-radius: 50px;
+    z-index: 100;
+    position: absolute;
+    left: 3rem;
+
+}
+.order-text{
+    text-decoration: none;
+}
+/*Contact */
+.contact{
+    margin-left: 270px;
+}
+
+.contact-title
+{
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contact-sub-title
+{
+    color: var(--text-black-900);
+    text-align: center;
+    font-size: 15px;
+
+}
+.contact .contact-info-item
+{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    margin-bottom: 40px ;
+ 
+}
+.contact .contact-info-item .icon
+{
+    display: inline-block;
+}
+.contact .contact-info-item h4 
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+    margin: 15px 0 5px ;
+
+}
+.contact .contact-info-item p 
+{
+    font-size:16px ;
+    line-height: 25px;
+    color: var(--text-black-700);
+font-weight: 400;
+}
+
+.contact .contact-form
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.contact .contact-form .col-6
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.contact .contact-form .col-12
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.contact .contact-form .contact-item
+{
+    margin-bottom: 30px;
+
+}
+.contact .contact-form .contact-item .form-control
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    padding: 10px 25px;
+    font-size: 16px;
+    color: var(--text-black-700);
+    transition: all 0.3s ease;
+}
+.contact .contact-form .contact-item .form-control:focus
+{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.contact .contact-form .contact-item textarea.form-control
+{
+    height: 140px;
+}
+
+
+@media(max-width:991px)
+{
+    .contact .contact-form .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home-cafe h1{
+   
+        font-size: 50px;
+    }
+}
+
+
+@media(max-width:767px){
+    .contact .contact-form .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home-cafe h1{
+        size: 30px;
+        font-size: 30px;
+    }
+}
